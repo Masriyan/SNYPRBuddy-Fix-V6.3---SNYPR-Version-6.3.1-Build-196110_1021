@@ -1,0 +1,18 @@
+{
+   "content_scripts": [ {
+      "css": [ "lib/easymde.min.css", "lib/picker.min.css", "styles.css" ],
+      "js": [ "lib/fuse.js", "lib/easymde.min.js", "lib/picker.min.js", "lib/sha.js", "lib/identicon.js", "lib/moment.min.js", "lib/moment-timezone-with-data-10-year-range.min.js", "lib/serializeArray.js", "helpers.js", "content.js" ],
+      "matches": [ "https://*/Snypr/*" ]
+   } ],
+   "description": "Field Centric Enhancements to SNYPR UI",
+   "icons": {
+      "128": "assets/SB_128.png",
+      "48": "assets/SB_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAi6yY03wyWTvZkDUg2owcUh8UH3Nf6N8GdKEym1XXl1kGd/QDACLqEmuPDo8Se8N2dGE5kq+/WgPxZ0n8ttRzc5yNxX+UhYUL5hhuVnRk/KLA1HPbwOJrlMnooHOPm/+YI3V+fuWlLjflOFkzoHo1DjFRjwIx6I9MdB3xLqerB0FEP3dnMhYBDbjv1G/LLw+9N1cEuFCZHfhhhvq11RumNOzni9Z/d5Qw5yQWm3TbWHchLbSDe7VVh5RT5YDUmUzTPm325dXvTLNfsCEYCiEPxVoy9ZkGJ7yF7PvOv91qkdzIZziRwpBAqD+U8YUDkHCCHcrgQQbymC+J7/2s7+BB3QIDAQAB",
+   "manifest_version": 2,
+   "name": "SNYPRBuddy",
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.26.0"
+}

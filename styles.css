@@ -1,0 +1,161 @@
+.time-delay-low {
+	color: green;
+}
+
+.time-delay-med {
+	color: orange;
+}
+
+.time-delay-high {
+	color: red;
+}
+
+.snyprbuddy-timezone-info {
+    color: #fff;
+    font-size: 11px;
+    padding: 0;
+    border-radius: 0;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.36);
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    top: 4px;
+	text-align: right;
+}
+
+.snyprbuddy-fake-policy-step {
+	height: 55px;
+	border-right: 1px solid #f5f5f5;
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+	line-height: 38px;
+	color: #374046;
+	background: #ffffff;
+	font-size: 10px;
+}
+
+/* BUDDY NET CONTENT */
+
+/* Overwrite the removals of whatever CSS is interfering - because I don't want to do a Shadow DOM */
+.buddynet-style-fix del {
+	text-decoration: line-through !important;
+}
+
+.buddynet-style-fix ul {
+	padding-inline-start: 40px !important;
+	margin-bottom: 10px !important;
+}
+
+.buddynet-style-fix ol {
+	margin-bottom: 10px !important;
+}
+
+.buddynet-style-fix ul li {
+	list-style-type: disc !important;
+}
+
+.buddynet-style-fix ol li {
+	list-style: decimal !important;
+}
+
+#buddynet-verbose {
+	display: none; 
+	width: 100%; 
+	height: 50px; 
+	position: absolute; 
+	bottom: 0px; 
+	right: 30px; 
+	background-color: rgba(255, 255, 255, 0.6);
+	z-index: 9999999;
+}
+
+.buddynet-parent{position:relative;}
+
+.buddynet-icon {
+  position:absolute;right:0;top:0px;
+	
+  width:15px;
+  height:100%;
+  background-color: #2e79c7;
+  /*border-radius: 2px;*/
+  color: white;
+  
+  font-size:13px;
+ 
+  padding: 1px 3px;
+  
+  transition: width 0.3s linear;
+  
+  user-select: none;
+  
+  text-align: center;
+  word-wrap: break-word;
+  
+  opacity: 0.6;
+}
+
+.buddynet-icon:hover {
+	opacity: 1;
+	width: 20px;
+	cursor: pointer;
+}
+
+.comment-wrapper .media-list .media img {
+    width:64px;
+    height:64px;
+    border:2px solid #e5e7e8;
+}
+
+.comment-wrapper .media-list .media {
+    border-bottom:1px dashed #efefef;
+    margin-bottom:25px;
+}
+
+.comment-wrapper .media-body {
+	
+}
+
+.form-group.fl_icon .icon {
+    position: absolute;
+    top: 1px;
+    left: 16px;
+    width: 48px;
+    height: 48px;
+    background: #f6f6f7;
+    color: #b5b8c2;
+    text-align: center;
+    line-height: 50px;
+    -webkit-border-top-left-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -moz-border-radius-topleft: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.form-group .form-input {
+    font-size: 13px;
+    line-height: 50px;
+    font-weight: 400;
+    color: black;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #edeff2;
+    border-radius: 3px;
+}
+
+.form-group .form-input:read-only {
+	background-color: #f6f6f7;
+}
+
+.form-group.fl_icon .form-input {
+    padding-left: 70px;
+}
+
+.form-group textarea.form-input {
+    height: 150px;
+}
